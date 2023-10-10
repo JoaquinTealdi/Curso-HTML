@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <h3>Completa con tus datos! :D </h3>
+        <label for="name">Nombre:</label>
+        <input type="text" name="" id="name" minlength="3" maxlength="15" required>
+        <br><br>
+
+        <label for="lastName">Apellido:</label>
+        <input type="text" name="" id="lastName" minlength="3" maxlength="15" required>
+        <br><br>
+
+        <label for="age">Edad:</label>
+        <input type="text" name="" id="age" required>
+        <br><br>
+
+        <label for="mail">E-mail:</label>
+        <input type="email" name="" id="mail" minlength="3" maxlength="15" required>
+        <br><br>
+
+        <label for="te">Fecha de nacimiento:</label>
+        <input type="date">
+        <br><br>
+
+        <h3>Selecciona tu pais</h3>
+        <select>
+            <option selected>Argentina</option>
+            <option>Brasil</option>
+            <option>Uruguay</option>
+            <option>Chile</option>
+            <option>Paraguay</option>
+        </select>
+        <br><br>
+
+        <h3>Disponibilidad</h3>
+        <label>
+            <input type="radio" name="turno"> Mañana
+        </label>
+        <label>
+            <input type="radio" name="turno"> Tarde
+        </label>
+        <label>
+            <input type="radio" name="turno"> Noche
+        </label>
+        <br><br>
+
+        <h3>Términos y condiciones</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci optio esse enim...</p>
+        <a href="#">Ver mas</a>
+        <label>
+            <input type="checkbox"> Acepto términos y condiciones
+        </label>
+        <br><br>
+
+        <h3>Información adicional (opcional)</h3>
+        <textarea cols="50" rows="3"></textarea>
+        <br><br>
+        <input type="reset" value="reset">
+        <input type="submit" value="enviar">
+    </form>
+
+</body>
+</html>
