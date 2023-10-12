@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas extra</title>
+    <style>
+        img{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    <figure>   
+        <img src="aguila1.png" alt="aguila1">
+        <figcaption>Aguila reposando</figcaption>
+    </figure>
+    -->
+
+    
+    <picture>
+        <source srcset="aguila3.png" media="(min-width: 600px)"> 
+        <source srcset="aguila2.png" media="(min-width: 300px)"> 
+        <!-- <source srcset="aguila1.png" media="(min-width: 150px)"> -->
+
+        <img src="aguila1.png" alt="">
+        <!-- <img src="aguila4.png" alt="Imagen no existe"> -->
+    </picture>
+
+    <!-- <details open closed => por defecto que se abra o quede cerrado al cargar la web --> 
+    <details>   
+        <summary>Características del aguila</summary>
+        <ul>
+            <li>Pico grande y resistente</li>
+            <li>Garras poderosas</li>
+            <li>Fuerza increíble</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </details>
+
+</body>
+</html>
